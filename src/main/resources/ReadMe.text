@@ -1,0 +1,12 @@
+
+#mybatis代码生成工具使用：
+
+1、打开generatorConfig.properties文件，
+2、将以下内容根据个人使用进行修改
+
+Entity=Order    //实体bean
+table=order     //表名称
+model.package=com.tianTou.order.bean    //实体bean存放路径
+dao.package=com.tianTou.order.dao       //dao文件存放路径
+
+3、配置完成后，以maven模式运行该文件

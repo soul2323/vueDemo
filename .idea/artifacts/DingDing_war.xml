@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DingDing:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="DingDing.war">
+      <element id="artifact" artifact-name="DingDing:war exploded" />
+    </root>
+  </artifact>
+</component>
